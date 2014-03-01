@@ -4,12 +4,12 @@
   Author - Carlos Celma to iGitWeb
   Site - http://web.igitsoft.com/
 */
-[class*='col-lf']{
+.row-lf[class*='col-']{
     float:left;
     width:100%;
     box-sizing:border-box;
 }
-[class*='col-rg']{
+.row-rg[class*='col-']{
     float:right;
     width:100%;
     box-sizing:border-box;
@@ -18,8 +18,8 @@
 @media handheld, only screen and (min-width: 768px) {
 
 	/* Row */
-    .row{margin:0;padding:0;width:100%;box-sizing:border-box;}
-    .row:after {content: "";display: table;clear: both;}
+    .row-lf,.row-rg{margin:0;padding:0;width:100%;box-sizing:border-box;}
+    .row-lf:after,.row-rg:after {content: "";display: table;clear: both;}
     /*colums left*/
     .row-lf .col-sm-12{width:100%;}
     .row-lf .col-sm-11{width:91.66%;}

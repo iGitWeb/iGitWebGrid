@@ -36,7 +36,7 @@ As the Grid System is Responsive, when the screen is smaller than 768px, all the
 
 ### Offsetting Columns
 
-You can move your colums to the right or left depending of your row alignment just adding a offset class <pre style="color:blue;">.offset-sm-1</pre>.
+You can move your colums to the right or left depending of your row alignment just adding an offset class <pre style="color:blue;">.offset-sm-1</pre>.
 
 ### Example
 
