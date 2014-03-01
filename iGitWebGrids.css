@@ -1,0 +1,73 @@
+/*
+  Simple Responsive Grid System
+  Project Page  - https://github.com/iGitWeb/iGitWebGrid/
+  Author - Carlos Celma to iGitWeb
+  Site - http://web.igitsoft.com/
+*/
+[class*='col-lf']{
+    float:left;
+    width:100%;
+    box-sizing:border-box;
+}
+[class*='col-rg']{
+    float:right;
+    width:100%;
+    box-sizing:border-box;
+}
+
+@media handheld, only screen and (min-width: 768px) {
+
+	/* Row */
+    .row{margin:0;padding:0;width:100%;box-sizing:border-box;}
+    .row:after {content: "";display: table;clear: both;}
+    /*colums left*/
+    .row-lf .col-sm-12{width:100%;}
+    .row-lf .col-sm-11{width:91.66%;}
+    .row-lf .col-sm-10{width:83.33%;}
+    .row-lf .col-sm-9{width:75%;}
+    .row-lf .col-sm-8{width:66.66%;}
+    .row-lf .col-sm-7{width:58.33%;}
+    .row-lf .col-sm-6{width:50%;}
+    .row-lf .col-sm-5{width:41.66%;}
+    .row-lf .col-sm-4{width:33.33%;}
+    .row-lf .col-sm-3{width:25%;}
+    .row-lf .col-sm-2{width:16.66%;}
+    .row-lf .col-sm-1{width:8.33%;}
+    /*colums right*/
+    .row-rg .col-sm-12{width:100%;}
+    .row-rg .col-sm-11{width:91.66%;}
+    .row-rg .col-sm-10{width:83.33%;}
+    .row-rg .col-sm-9{width:75%;}
+    .row-rg .col-sm-8{width:66.66%;}
+    .row-rg .col-sm-7{width:58.33%;}
+    .row-rg .col-sm-6{width:50%;}
+    .row-rg .col-sm-5{width:41.66%;}
+    .row-rg .col-sm-4{width:33.33%;}
+    .row-rg .col-sm-3{width:25%;}
+    .row-rg .col-sm-2{width:16.66%;}
+    .row-rg .col-sm-1{width:8.33%;}
+    /*offsets left*/
+    .row-lf .offset-sm-11{margin-left:91.66%;}
+    .row-lf .offset-sm-10{margin-left:83.33%;}
+    .row-lf .offset-sm-9{margin-left:75%;}
+    .row-lf .offset-sm-8{margin-left:66.66%;}
+    .row-lf .offset-sm-7{margin-left:58.33%;}
+    .row-lf .offset-sm-6{margin-left:50%;}
+    .row-lf .offset-sm-5{margin-left:41.66%;}
+    .row-lf .offset-sm-4{margin-left:33.33%;}
+    .row-lf .offset-sm-3{margin-left:25%;}
+    .row-lf .offset-sm-2{margin-left:16.66%;}
+    .row-lf .offset-sm-1{margin-left:8.33%;}
+    /*offsets right*/
+    .row-rg .offset-sm-11{margin-right:91.66%;}
+    .row-rg .offset-sm-10{margin-right:83.33%;}
+    .row-rg .offset-sm-9{margin-right:75%;}
+    .row-rg .offset-sm-8{margin-right:66.66%;}
+    .row-rg .offset-sm-7{margin-right:58.33%;}
+    .row-rg .offset-sm-6{margin-right:50%;}
+    .row-rg .offset-sm-5{margin-right:41.66%;}
+    .row-rg .offset-sm-4{margin-right:33.33%;}
+    .row-rg .offset-sm-3{margin-right:25%;}
+    .row-rg .offset-sm-2{margin-right:16.66%;}
+    .row-rg .offset-sm-1{margin-right:8.33%;}
+}
