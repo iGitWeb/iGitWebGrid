@@ -4,12 +4,12 @@
   Author - Carlos Celma to iGitWeb
   Site - http://web.igitsoft.com/
 */
-.row-lf[class*='col-']{
+.row-lf [class*='col-']{
     float:left;
     width:100%;
     box-sizing:border-box;
 }
-.row-rg[class*='col-']{
+.row-rg [class*='col-']{
     float:right;
     width:100%;
     box-sizing:border-box;
