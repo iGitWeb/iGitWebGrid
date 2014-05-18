@@ -22,7 +22,7 @@ Implementation
 
 To implement the grid system you need to start with a row content that will align your columns from left to right <pre style="color:blue;">.row-lf</pre> or from right to left <pre style="color:orange;">.row-rg</pre>, then yo can use the columns as you need.
 
-### Exaple
+### Example
 
 <pre>
 &lt;div class="row-lf"&gt;
